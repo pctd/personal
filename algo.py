@@ -7,4 +7,7 @@ class Matrix:
     def __init__(self, row: int, column: int, default_value: float = 0):
         """
         <method Matrix.__init__>
-        Initialize matrix with given s
+        Initialize matrix with given size and default value.
+
+        Example:
+ 
