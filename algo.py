@@ -13,4 +13,8 @@ class Matrix:
         >>> a = Matrix(2, 3, 1)
         >>> a
         Matrix consist of 2 rows and 3 columns
-     
+        [1, 1, 1]
+        [1, 1, 1]
+        """
+
+  
