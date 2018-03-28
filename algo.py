@@ -10,4 +10,5 @@ class Matrix:
         Initialize matrix with given size and default value.
 
         Example:
- 
+        >>> a = Matrix(2, 3, 1)
+       
