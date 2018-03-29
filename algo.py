@@ -17,4 +17,4 @@ class Matrix:
         [1, 1, 1]
         """
 
-  
+        self.row, self.column = 
