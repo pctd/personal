@@ -26,4 +26,5 @@ class Matrix:
         Return string representation of this matrix.
         """
 
-    
+        # Prefix
+        s = "Matrix cons
