@@ -18,4 +18,4 @@ class Matrix:
         """
 
         self.row, self.column = row, column
-        self.array = [[default
+        self.array = [[default_value for c in range(column)] for r
