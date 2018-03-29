@@ -27,4 +27,4 @@ class Matrix:
         """
 
         # Prefix
-        s = "Matrix cons
+        s = "Matrix consist of %d rows and %d columns\n" % (self.
