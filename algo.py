@@ -23,4 +23,7 @@ class Matrix:
     def __str__(self):
         """
         <method Matrix.__str__>
-        Return string representati
+        Return string representation of this matrix.
+        """
+
+    
