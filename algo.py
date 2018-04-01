@@ -27,4 +27,7 @@ class Matrix:
         """
 
         # Prefix
-        s = "Matrix consist of %d rows and %d columns\n" % (self.
+        s = "Matrix consist of %d rows and %d columns\n" % (self.row, self.column)
+
+        # Make string identifier
+ 
