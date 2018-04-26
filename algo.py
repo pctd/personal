@@ -32,4 +32,5 @@ class Matrix:
         # Make string identifier
         max_element_length = 0
         for row_vector in self.array:
-            for obj in r
+            for obj in row_vector:
+                max_element_le
