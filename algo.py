@@ -33,4 +33,4 @@ class Matrix:
         max_element_length = 0
         for row_vector in self.array:
             for obj in row_vector:
-                max_element_le
+                max_element_length = max(max_element_leng
