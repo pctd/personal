@@ -34,4 +34,6 @@ class Matrix:
         for row_vector in self.array:
             for obj in row_vector:
                 max_element_length = max(max_element_length, len(str(obj)))
-        string
+        string_format_identifier = "%%%ds" % (max_element_length,)
+
+ 
