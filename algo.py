@@ -37,4 +37,5 @@ class Matrix:
         string_format_identifier = "%%%ds" % (max_element_length,)
 
         # Make string and return
-       
+        def single_line(row_vector):
+         
