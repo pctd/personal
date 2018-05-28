@@ -41,4 +41,5 @@ class Matrix:
             nonlocal string_format_identifier
             line = "["
             line += ", ".join(string_format_identifier % (obj,) for obj in row_vector)
-            line 
+            line += "]"
+            return l
