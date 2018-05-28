@@ -39,4 +39,5 @@ class Matrix:
         # Make string and return
         def single_line(row_vector):
             nonlocal string_format_identifier
-      
+            line = "["
+            line += ", ".
