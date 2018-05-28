@@ -40,4 +40,4 @@ class Matrix:
         def single_line(row_vector):
             nonlocal string_format_identifier
             line = "["
-            line += ", ".
+            line += ", ".join(string_format_identifier % (obj,) for o
