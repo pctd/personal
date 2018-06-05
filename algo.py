@@ -45,4 +45,7 @@ class Matrix:
             return line
 
         s += "\n".join(single_line(row_vector) for row_vector in self.array)
-  
+        return s
+
+    def __repr__(self):
+      
