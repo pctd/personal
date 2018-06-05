@@ -42,4 +42,6 @@ class Matrix:
             line = "["
             line += ", ".join(string_format_identifier % (obj,) for obj in row_vector)
             line += "]"
-            return l
+            return line
+
+        s += "\n".join(single_l
