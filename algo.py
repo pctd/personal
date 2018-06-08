@@ -48,4 +48,6 @@ class Matrix:
         return s
 
     def __repr__(self):
-      
+        return str(self)
+
+    def validateIndi
