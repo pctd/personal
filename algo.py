@@ -53,4 +53,4 @@ class Matrix:
     def validateIndices(self, loc: tuple):
         """
         <method Matrix.validateIndices>
-        Che
+        Check if given indices are valid to pick ele
