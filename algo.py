@@ -53,4 +53,7 @@ class Matrix:
     def validateIndices(self, loc: tuple):
         """
         <method Matrix.validateIndices>
-        Check if given indices are valid to pick ele
+        Check if given indices are valid to pick element from matrix.
+
+        Example:
+    
