@@ -56,4 +56,5 @@ class Matrix:
         Check if given indices are valid to pick element from matrix.
 
         Example:
-    
+        >>> a = Matrix(2, 6, 0)
+       
