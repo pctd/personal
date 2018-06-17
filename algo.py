@@ -57,4 +57,5 @@ class Matrix:
 
         Example:
         >>> a = Matrix(2, 6, 0)
-       
+        >>> a.validateIndices((2, 7))
+  
