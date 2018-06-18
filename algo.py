@@ -64,4 +64,4 @@ class Matrix:
         """
         if not (isinstance(loc, (list, tuple)) and len(loc) == 2):
             return False
-    
+        elif not (0 <= loc[0] < self.row 
