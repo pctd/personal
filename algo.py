@@ -62,4 +62,6 @@ class Matrix:
         >>> a.validateIndices((0, 0))
         True
         """
-        if not (isinstance(loc, (list, tuple
+        if not (isinstance(loc, (list, tuple)) and len(loc) == 2):
+            return False
+    
