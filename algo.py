@@ -65,4 +65,6 @@ class Matrix:
         if not (isinstance(loc, (list, tuple)) and len(loc) == 2):
             return False
         elif not (0 <= loc[0] < self.row and 0 <= loc[1] < self.column):
-         
+            return False
+        else:
+        
