@@ -59,4 +59,7 @@ class Matrix:
         >>> a = Matrix(2, 6, 0)
         >>> a.validateIndices((2, 7))
         False
-        >>> a.validateIndic
+        >>> a.validateIndices((0, 0))
+        True
+        """
+    
