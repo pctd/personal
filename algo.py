@@ -69,4 +69,6 @@ class Matrix:
         else:
             return True
 
-    def __getitem__(sel
+    def __getitem__(self, loc: tuple):
+        """
+        <method Ma
