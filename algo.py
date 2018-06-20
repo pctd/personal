@@ -67,4 +67,6 @@ class Matrix:
         elif not (0 <= loc[0] < self.row and 0 <= loc[1] < self.column):
             return False
         else:
-        
+            return True
+
+    def __getitem__(sel
