@@ -71,4 +71,5 @@ class Matrix:
 
     def __getitem__(self, loc: tuple):
         """
-        <method Ma
+        <method Matrix.__getitem__>
+        Return a
