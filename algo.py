@@ -72,4 +72,4 @@ class Matrix:
     def __getitem__(self, loc: tuple):
         """
         <method Matrix.__getitem__>
-        Return a
+        Return array[row][column] where loc = (row, column).
