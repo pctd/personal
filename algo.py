@@ -76,3 +76,7 @@ class Matrix:
 
         Example:
         >>> a = Matrix(3, 2, 7)
+        >>> a[1, 0]
+        7
+        """
+        ass
