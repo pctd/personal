@@ -79,4 +79,5 @@ class Matrix:
         >>> a[1, 0]
         7
         """
-        ass
+        assert self.validateIndices(loc)
+        return
