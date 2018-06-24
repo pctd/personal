@@ -80,4 +80,6 @@ class Matrix:
         7
         """
         assert self.validateIndices(loc)
-        return
+        return self.array[loc[0]][loc[1]]
+
+    def __set
