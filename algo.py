@@ -82,4 +82,4 @@ class Matrix:
         assert self.validateIndices(loc)
         return self.array[loc[0]][loc[1]]
 
-    def __set
+    def __setitem__(self, loc: tuple, value: float)
