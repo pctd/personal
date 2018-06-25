@@ -85,4 +85,6 @@ class Matrix:
     def __setitem__(self, loc: tuple, value: float):
         """
         <method Matrix.__setitem__>
-        Set array[row][column] = val
+        Set array[row][column] = value where loc = (row, column).
+
+        Example:
