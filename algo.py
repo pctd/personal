@@ -88,3 +88,5 @@ class Matrix:
         Set array[row][column] = value where loc = (row, column).
 
         Example:
+        >>> a = Matrix(2, 3, 1)
+   
