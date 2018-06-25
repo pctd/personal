@@ -91,4 +91,4 @@ class Matrix:
         >>> a = Matrix(2, 3, 1)
         >>> a[1, 2] = 51
         >>> a
- 
+        Matrix consist of 2 rows and 3
