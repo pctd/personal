@@ -89,4 +89,6 @@ class Matrix:
 
         Example:
         >>> a = Matrix(2, 3, 1)
-   
+        >>> a[1, 2] = 51
+        >>> a
+ 
