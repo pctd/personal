@@ -84,4 +84,5 @@ class Matrix:
 
     def __setitem__(self, loc: tuple, value: float):
         """
-        <method Matrix.__seti
+        <method Matrix.__setitem__>
+        Set array[row][column] = val
