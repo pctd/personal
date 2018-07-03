@@ -104,4 +104,5 @@ class Matrix:
         Return self + another.
 
         Example:
-        >>> a = Matr
+        >>> a = Matrix(2, 1, -4)
+        >>> b = Matrix(2, 1, 3)
