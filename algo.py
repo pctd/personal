@@ -95,4 +95,5 @@ class Matrix:
         [ 1,  1,  1]
         [ 1,  1, 51]
         """
-        assert self.v
+        assert self.validateIndices(loc)
+        self.array[lo
