@@ -96,4 +96,6 @@ class Matrix:
         [ 1,  1, 51]
         """
         assert self.validateIndices(loc)
-        self.array[lo
+        self.array[loc[0]][loc[1]] = value
+
+    def __add__(self,
