@@ -103,4 +103,5 @@ class Matrix:
         <method Matrix.__add__>
         Return self + another.
 
-       
+        Example:
+        >>> a = Matr
