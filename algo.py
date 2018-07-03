@@ -100,4 +100,7 @@ class Matrix:
 
     def __add__(self, another):
         """
-        <method Matrix._
+        <method Matrix.__add__>
+        Return self + another.
+
+       
