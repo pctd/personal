@@ -106,3 +106,5 @@ class Matrix:
         Example:
         >>> a = Matrix(2, 1, -4)
         >>> b = Matrix(2, 1, 3)
+        >>> a+b
+        Matrix consist of
