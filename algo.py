@@ -93,4 +93,6 @@ class Matrix:
         >>> a
         Matrix consist of 2 rows and 3 columns
         [ 1,  1,  1]
-        [ 1
+        [ 1,  1, 51]
+        """
+        assert self.v
