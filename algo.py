@@ -110,4 +110,7 @@ class Matrix:
         Matrix consist of 2 rows and 1 columns
         [-1]
         [-1]
- 
+        """
+
+        # Validation
+        asser
