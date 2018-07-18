@@ -114,4 +114,4 @@ class Matrix:
 
         # Validation
         assert isinstance(another, Matrix)
-        asse
+        assert self.row == another.row and self.colu
