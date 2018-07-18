@@ -113,4 +113,5 @@ class Matrix:
         """
 
         # Validation
-        asser
+        assert isinstance(another, Matrix)
+        asse
