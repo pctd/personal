@@ -117,4 +117,5 @@ class Matrix:
         assert self.row == another.row and self.column == another.column
 
         # Add
-        result = Matrix(self.row, self.colu
+        result = Matrix(self.row, self.column)
+        for r in range(self.row):
