@@ -120,4 +120,4 @@ class Matrix:
         result = Matrix(self.row, self.column)
         for r in range(self.row):
             for c in range(self.column):
-      
+                result[r, c] = self[r, c] + anot
