@@ -125,4 +125,7 @@ class Matrix:
 
     def __neg__(self):
         """
-        <meth
+        <method Matrix.__neg__>
+        Return -self.
+
+ 
