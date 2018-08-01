@@ -123,4 +123,6 @@ class Matrix:
                 result[r, c] = self[r, c] + another[r, c]
         return result
 
-    de
+    def __neg__(self):
+        """
+        <meth
