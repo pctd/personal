@@ -129,4 +129,5 @@ class Matrix:
         Return -self.
 
         Example:
-        >>> a = Matrix(
+        >>> a = Matrix(2, 2, 3)
+        >>> a[0, 1
