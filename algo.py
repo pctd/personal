@@ -128,4 +128,5 @@ class Matrix:
         <method Matrix.__neg__>
         Return -self.
 
- 
+        Example:
+        >>> a = Matrix(
