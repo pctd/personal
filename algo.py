@@ -130,4 +130,6 @@ class Matrix:
 
         Example:
         >>> a = Matrix(2, 2, 3)
-        >>> a[0, 1
+        >>> a[0, 1] = a[1, 0] = -2
+        >>> -a
+        Ma
