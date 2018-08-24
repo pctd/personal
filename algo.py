@@ -137,4 +137,5 @@ class Matrix:
         [ 2, -3]
         """
 
-      
+        result = Matrix(self.row, self.column)
+        for
