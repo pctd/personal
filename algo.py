@@ -139,4 +139,5 @@ class Matrix:
 
         result = Matrix(self.row, self.column)
         for r in range(self.row):
-            for c in
+            for c in range(self.column):
+                resu
