@@ -144,4 +144,6 @@ class Matrix:
         return result
 
     def __sub__(self, another):
-       
+        return self + (-another)
+
+    def 
