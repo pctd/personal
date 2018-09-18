@@ -146,4 +146,6 @@ class Matrix:
     def __sub__(self, another):
         return self + (-another)
 
-    def 
+    def __mul__(self, another):
+        """
+   
