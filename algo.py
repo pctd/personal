@@ -151,4 +151,6 @@ class Matrix:
         <method Matrix.__mul__>
         Return self * another.
 
-        Exampl
+        Example:
+        >>> a = Matrix(2, 3, 1)
+      
