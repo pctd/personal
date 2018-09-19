@@ -155,4 +155,5 @@ class Matrix:
         >>> a = Matrix(2, 3, 1)
         >>> a[0,2] = a[1,2] = 3
         >>> a * -2
-        Matrix c
+        Matrix consist of 2 rows and 3 columns
+        [-
