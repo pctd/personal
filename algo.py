@@ -149,4 +149,6 @@ class Matrix:
     def __mul__(self, another):
         """
         <method Matrix.__mul__>
-        Ret
+        Return self * another.
+
+        Exampl
