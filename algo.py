@@ -160,4 +160,5 @@ class Matrix:
         [-2, -2, -6]
         """
 
-        if isinstance(another, (int, float
+        if isinstance(another, (int, float)):  # Scalar multiplication
+          
