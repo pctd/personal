@@ -160,4 +160,4 @@ class Matrix:
         [-2, -2, -6]
         """
 
-     
+        if isinstance(another, (int, float
