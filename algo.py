@@ -156,4 +156,8 @@ class Matrix:
         >>> a[0,2] = a[1,2] = 3
         >>> a * -2
         Matrix consist of 2 rows and 3 columns
-        [-
+        [-2, -2, -6]
+        [-2, -2, -6]
+        """
+
+     
