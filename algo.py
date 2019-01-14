@@ -167,4 +167,5 @@ class Matrix:
                     result[r, c] = self[r, c] * another
             return result
         elif isinstance(another, Matrix):  # Matrix multiplication
-            assert self.c
+            assert self.column == another.row
+            result = Matrix
