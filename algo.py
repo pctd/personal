@@ -166,4 +166,5 @@ class Matrix:
                 for c in range(self.column):
                     result[r, c] = self[r, c] * another
             return result
-        elif isinstance(another, Matrix):
+        elif isinstance(another, Matrix):  # Matrix multiplication
+            assert self.c
