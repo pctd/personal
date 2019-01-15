@@ -168,4 +168,5 @@ class Matrix:
             return result
         elif isinstance(another, Matrix):  # Matrix multiplication
             assert self.column == another.row
-            result = Matrix
+            result = Matrix(self.row, another.column)
+    
