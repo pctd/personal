@@ -171,4 +171,5 @@ class Matrix:
             result = Matrix(self.row, another.column)
             for r in range(self.row):
                 for c in range(another.column):
-                    for i in 
+                    for i in range(self.column):
+                     
