@@ -173,4 +173,6 @@ class Matrix:
                 for c in range(another.column):
                     for i in range(self.column):
                         result[r, c] += self[r, i] * another[i, c]
-  
+            return result
+        else:
+       
