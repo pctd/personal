@@ -172,4 +172,5 @@ class Matrix:
             for r in range(self.row):
                 for c in range(another.column):
                     for i in range(self.column):
-                     
+                        result[r, c] += self[r, i] * another[i, c]
+  
