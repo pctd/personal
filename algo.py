@@ -175,4 +175,5 @@ class Matrix:
                         result[r, c] += self[r, i] * another[i, c]
             return result
         else:
-       
+            raise TypeError(
+                "Unsuppor
