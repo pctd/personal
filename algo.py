@@ -176,4 +176,4 @@ class Matrix:
             return result
         else:
             raise TypeError(
-                "Unsuppor
+                "Unsupported type given for another ({})".format(type
