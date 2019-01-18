@@ -176,4 +176,7 @@ class Matrix:
             return result
         else:
             raise TypeError(
-                "Unsupported type given for another ({})".format(type
+                "Unsupported type given for another ({})".format(type(another))
+            )
+
+    def transpo
