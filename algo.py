@@ -181,4 +181,7 @@ class Matrix:
 
     def transpose(self):
         """
-        <method Matrix
+        <method Matrix.transpose>
+        Return self^T.
+
+      
