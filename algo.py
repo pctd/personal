@@ -185,4 +185,6 @@ class Matrix:
         Return self^T.
 
         Example:
-        >>> a = Matrix(2, 
+        >>> a = Matrix(2, 3)
+        >>> for r in range(2):
+        .
