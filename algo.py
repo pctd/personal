@@ -179,4 +179,6 @@ class Matrix:
                 "Unsupported type given for another ({})".format(type(another))
             )
 
-    def transpo
+    def transpose(self):
+        """
+        <method Matrix
