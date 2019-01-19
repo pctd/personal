@@ -184,4 +184,5 @@ class Matrix:
         <method Matrix.transpose>
         Return self^T.
 
-      
+        Example:
+        >>> a = Matrix(2, 
