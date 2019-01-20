@@ -189,4 +189,6 @@ class Matrix:
         >>> for r in range(2):
         ...     for c in range(3):
         ...             a[r,c] = r*c
-    
+        ...
+        >>> a.transpose()
+ 
