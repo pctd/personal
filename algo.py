@@ -194,4 +194,7 @@ class Matrix:
         Matrix consist of 3 rows and 2 columns
         [0, 0]
         [0, 1]
-     
+        [0, 2]
+        """
+
+        result = Matri
