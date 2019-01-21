@@ -191,4 +191,7 @@ class Matrix:
         ...             a[r,c] = r*c
         ...
         >>> a.transpose()
-        Matrix consist of 3 rows and 2 c
+        Matrix consist of 3 rows and 2 columns
+        [0, 0]
+        [0, 1]
+     
