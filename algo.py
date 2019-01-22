@@ -197,4 +197,5 @@ class Matrix:
         [0, 2]
         """
 
-        result = Matri
+        result = Matrix(self.column, self.row)
+        for r in 
