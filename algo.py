@@ -203,4 +203,6 @@ class Matrix:
                 result[c, r] = self[r, c]
         return result
 
-    def ShermanMorrison(self, u, v)
+    def ShermanMorrison(self, u, v):
+        """
+        <method Matrix.Sher
