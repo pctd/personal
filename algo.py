@@ -200,4 +200,5 @@ class Matrix:
         result = Matrix(self.column, self.row)
         for r in range(self.row):
             for c in range(self.column):
-                result[c,
+                result[c, r] = self[r, c]
+        return result
