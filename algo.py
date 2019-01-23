@@ -202,3 +202,5 @@ class Matrix:
             for c in range(self.column):
                 result[c, r] = self[r, c]
         return result
+
+    def ShermanMorrison(self, u, v)
