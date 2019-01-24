@@ -205,4 +205,5 @@ class Matrix:
 
     def ShermanMorrison(self, u, v):
         """
-        <method Matrix.Sher
+        <method Matrix.ShermanMorrison>
+        Apply Sherman-Morris
