@@ -206,4 +206,5 @@ class Matrix:
     def ShermanMorrison(self, u, v):
         """
         <method Matrix.ShermanMorrison>
-        Apply Sherman-Morris
+        Apply Sherman-Morrison formula in O(n^2).
+        To learn 
