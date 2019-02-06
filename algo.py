@@ -208,4 +208,5 @@ class Matrix:
         <method Matrix.ShermanMorrison>
         Apply Sherman-Morrison formula in O(n^2).
         To learn this formula, please look this:
-        https://en.wikipedia.org/wiki/Sherman%E2%
+        https://en.wikipedia.org/wiki/Sherman%E2%80%93Morrison_formula
+        This
