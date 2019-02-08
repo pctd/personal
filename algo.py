@@ -210,4 +210,5 @@ class Matrix:
         To learn this formula, please look this:
         https://en.wikipedia.org/wiki/Sherman%E2%80%93Morrison_formula
         This method returns (A + uv^T)^(-1) where A^(-1) is self. Returns None if it's
-        im
+        impossible to calculate.
+        Warning: 
