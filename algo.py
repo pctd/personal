@@ -211,4 +211,5 @@ class Matrix:
         https://en.wikipedia.org/wiki/Sherman%E2%80%93Morrison_formula
         This method returns (A + uv^T)^(-1) where A^(-1) is self. Returns None if it's
         impossible to calculate.
-        Warning: 
+        Warning: This method doesn't check if self is invertible.
+  
