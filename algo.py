@@ -212,4 +212,6 @@ class Matrix:
         This method returns (A + uv^T)^(-1) where A^(-1) is self. Returns None if it's
         impossible to calculate.
         Warning: This method doesn't check if self is invertible.
-            Make sure self is invertible bef
+            Make sure self is invertible before execute this method.
+
+        Example
