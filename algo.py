@@ -214,4 +214,6 @@ class Matrix:
         Warning: This method doesn't check if self is invertible.
             Make sure self is invertible before execute this method.
 
-        Example
+        Example:
+        >>> ainv = Matrix(3, 3, 0)
+    
