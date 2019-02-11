@@ -216,4 +216,6 @@ class Matrix:
 
         Example:
         >>> ainv = Matrix(3, 3, 0)
-        >>> for i in range(3): ainv[i,i
+        >>> for i in range(3): ainv[i,i] = 1
+        ...
+        >>> u = Matrix(3, 1, 0)
