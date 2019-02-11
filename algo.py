@@ -216,4 +216,4 @@ class Matrix:
 
         Example:
         >>> ainv = Matrix(3, 3, 0)
-    
+        >>> for i in range(3): ainv[i,i
