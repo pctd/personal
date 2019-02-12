@@ -219,4 +219,5 @@ class Matrix:
         >>> for i in range(3): ainv[i,i] = 1
         ...
         >>> u = Matrix(3, 1, 0)
-        >>> u[0,0], u[1,0], u[2,0] = 1, 2, 
+        >>> u[0,0], u[1,0], u[2,0] = 1, 2, -3
+        >>> v = Matrix(3, 1, 0)
