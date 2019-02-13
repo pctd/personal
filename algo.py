@@ -222,4 +222,6 @@ class Matrix:
         >>> u[0,0], u[1,0], u[2,0] = 1, 2, -3
         >>> v = Matrix(3, 1, 0)
         >>> v[0,0], v[1,0], v[2,0] = 4, -2, 5
-        >>> ainv.ShermanMorrison(u, v
+        >>> ainv.ShermanMorrison(u, v)
+        Matrix consist of 3 rows and 3 columns
+ 
