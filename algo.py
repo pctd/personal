@@ -225,4 +225,4 @@ class Matrix:
         >>> ainv.ShermanMorrison(u, v)
         Matrix consist of 3 rows and 3 columns
         [  1.2857142857142856, -0.14285714285714285,   0.3571428571428571]
-        [  
+        [  0.5714285714285714,   0.7142857142857143,   0.714
