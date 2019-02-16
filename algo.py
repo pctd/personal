@@ -230,4 +230,5 @@ class Matrix:
         """
 
         # Size validation
-        assert isinstance(u, Matrix) a
+        assert isinstance(u, Matrix) and isinstance(v, Matrix)
+        assert 
