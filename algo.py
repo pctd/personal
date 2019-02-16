@@ -229,4 +229,5 @@ class Matrix:
         [ -0.8571428571428571,  0.42857142857142855,  -0.0714285714285714]
         """
 
-        # Size valid
+        # Size validation
+        assert isinstance(u, Matrix) a
