@@ -231,4 +231,5 @@ class Matrix:
 
         # Size validation
         assert isinstance(u, Matrix) and isinstance(v, Matrix)
-        assert self.row == self.column == u.row == v.row  # u
+        assert self.row == self.column == u.row == v.row  # u, v should be column vector
+        assert u.
