@@ -235,4 +235,5 @@ class Matrix:
         assert u.column == v.column == 1  # u, v should be column vector
 
         # Calculate
-        vT = v.transpos
+        vT = v.transpose()
+        numerator_factor = (vT * se
