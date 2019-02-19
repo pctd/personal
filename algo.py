@@ -237,4 +237,5 @@ class Matrix:
         # Calculate
         vT = v.transpose()
         numerator_factor = (vT * self * u)[0, 0] + 1
-        if numerator_fa
+        if numerator_factor == 0:
+            return None  
