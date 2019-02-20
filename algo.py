@@ -238,4 +238,5 @@ class Matrix:
         vT = v.transpose()
         numerator_factor = (vT * self * u)[0, 0] + 1
         if numerator_factor == 0:
-            return None  
+            return None  # It's not invertable
+        ret
