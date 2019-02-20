@@ -239,4 +239,4 @@ class Matrix:
         numerator_factor = (vT * self * u)[0, 0] + 1
         if numerator_factor == 0:
             return None  # It's not invertable
-        ret
+        return self - ((self * u) * (vT * self) * (1.0 / num
