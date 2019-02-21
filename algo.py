@@ -247,3 +247,5 @@ if __name__ == "__main__":
 
     def test1():
         # a^(-1)
+        ainv = Matrix(3, 3, 0)
+        for i in
