@@ -243,4 +243,7 @@ class Matrix:
 
 
 # Testing
-if __name__ == "__m
+if __name__ == "__main__":
+
+    def test1():
+        # a^(-1)
