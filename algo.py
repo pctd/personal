@@ -248,4 +248,6 @@ if __name__ == "__main__":
     def test1():
         # a^(-1)
         ainv = Matrix(3, 3, 0)
-        for i in
+        for i in range(3):
+            ainv[i, i] = 1
+        
