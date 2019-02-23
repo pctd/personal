@@ -253,4 +253,5 @@ if __name__ == "__main__":
         print(f"a^(-1) is {ainv}")
         # u, v
         u = Matrix(3, 1, 0)
-        u[0
+        u[0, 0], u[1, 0], u[2, 0] = 1, 2, -3
+        v 
