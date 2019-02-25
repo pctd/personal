@@ -257,4 +257,5 @@ if __name__ == "__main__":
         v = Matrix(3, 1, 0)
         v[0, 0], v[1, 0], v[2, 0] = 4, -2, 5
         print(f"u is {u}")
-        print(f"v is {v}"
+        print(f"v is {v}")
+        print("uv^T is %s" % (u * v.tran
