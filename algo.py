@@ -260,3 +260,4 @@ if __name__ == "__main__":
         print(f"v is {v}")
         print("uv^T is %s" % (u * v.transpose()))
         # Sherman Morrison
+        print("(a + uv^T)^(-1)
