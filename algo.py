@@ -264,3 +264,7 @@ if __name__ == "__main__":
 
     def test2():
         import doctest
+
+        doctest.testmod()
+
+    test2()
